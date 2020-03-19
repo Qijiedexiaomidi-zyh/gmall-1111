@@ -19,6 +19,19 @@
     </properties>
 
     <dependencies>
+
+<!--    使用api的数据    -->
+        <dependency>
+            <groupId>com.zyh.gmall</groupId>
+            <artifactId>gmall-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+<!--    logback整合logstash的第三方包    -->
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>5.3</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
